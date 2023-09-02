@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <!--link da cdn do normalize css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    
+        <!--meu css-->
+
+            <link rel="stylesheet" href="./assets/css/global.css">
+            <link rel="stylesheet" href="./assets/css/pokedex.css">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <title>pokedex</title>
+    </head>
+    <body>            
+        <header>
+            <div class="content">
+                <h1>pokedex</h1>
+            </div>
+        </header>
+        <hr />
+        <section class="content">
+        
+            
+            <ol id="pokemonList" class="pokemons">
+                
+            </ol>
+
+            <div class="pagination">
+                <button id="loadMoreButton">
+                    load more...
+                </button>
+            </div>
+        </section>
+        <script src="./assets/js/pokemon-model.js"></script>
+        <script src="./assets/js/poke-api.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
